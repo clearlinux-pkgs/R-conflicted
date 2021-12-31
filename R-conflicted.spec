@@ -4,7 +4,7 @@
 #
 Name     : R-conflicted
 Version  : 1.1.0
-Release  : 2
+Release  : 3
 URL      : https://cran.r-project.org/src/contrib/conflicted_1.1.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/conflicted_1.1.0.tar.gz
 Summary  : An Alternative Conflict Resolution Strategy
@@ -32,10 +32,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1638367693
+export SOURCE_DATE_EPOCH=1640992417
 
 %install
-export SOURCE_DATE_EPOCH=1638367693
+export SOURCE_DATE_EPOCH=1640992417
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
